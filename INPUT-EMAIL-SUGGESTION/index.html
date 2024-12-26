@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input Email Suggestion in vanilla JS.</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class = "c">
+        <div class="input-email-suggestion-container">
+            <form method="POST" target="_self" class="mt10">
+                <div class="field">
+                    <label for="registerEmail">Email <b class="rqd">*</b>:</label>
+                    <input  class = "inpt" id = "registerEmail" placeholder="email@domain.com" type="text" maxlength="255" name = "register-email" required sdev-email-suggestion/>
+                    <div id="sdev-error-4" class="error"></div>
+                </div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
